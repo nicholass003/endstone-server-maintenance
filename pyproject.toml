@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "endstone-server-maintenance"
+version = "0.1.0"
+dependencies = []
+authors = [
+    { name = "nicholass003" },
+]
+description = "A simple server maintenance plugin for Endstone servers"
+readme = "README.md"
+license = { file = "LICENSE" }
+keywords = ["endstone", "maintenance", "plugin", "server"]
+
+[project.urls]
+Homepage = "https://github.com/nicholass003/endstone-server-maintenance"
+
+[project.entry-points."endstone"]
+server_maintenance = "server_maintenance:ServerMaintenance"
