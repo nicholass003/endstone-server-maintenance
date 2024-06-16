@@ -18,4 +18,4 @@ keywords = ["endstone", "maintenance", "plugin", "server"]
 Homepage = "https://github.com/nicholass003/endstone-server-maintenance"
 
 [project.entry-points."endstone"]
-server_maintenance = "server_maintenance:ServerMaintenance"
+server-maintenance = "endstone_server_maintenance:ServerMaintenance"
